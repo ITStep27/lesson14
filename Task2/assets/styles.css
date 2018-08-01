@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: #2f2f2f;
+}
+
+.account {
+	width: 500px;
+	margin: 20px auto;
+	background-color: #fdec51;
+	padding: 30px 50px;
+}
+
+.account * {
+	border: none;
+	outline: none;
+}
+
+.form-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	text-transform: none;
+	font-variant: normal;
+}
+
+.form-header h2 {
+	font-weight: normal;
+}
+
+.form-header span {
+	opacity: .5;
+}
+
+.form-header span:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.form-body {
+	background-color: #fff;
+	width: 500px;
+	position: relative;
+	margin: 40px 0;
+	padding: 50px 35px 20px;
+	box-shadow: -5px 5px 50px 0 rgba(0, 0, 0, .3);
+}
+
+.form-body .avatar {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	top: -35px;
+	left: 35px;
+}
+
+.form-body .form-line {
+	border-bottom: 1px solid #dedede;
+	margin: 15px 0;
+	padding: 1px;
+}
+
+.form-line label {
+	display: block;
+	text-transform: uppercase;
+	color: #aaabaa;
+	font-size: .85em;
+}
+
+.form-line input, .form-line textarea{
+	padding: 10px 0;
+}
+.form-footer {
+	float: right;
+}
+button {
+	background-color: #fdec51;
+	color:darkgray;
+	font-size: 18px;
+}
+button:hover {
+	color:black;
+	cursor:pointer;
+}
+.form-line textarea{
+max-width:430px;
+}
